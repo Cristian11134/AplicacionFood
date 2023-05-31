@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "82868335992",
+    "project_id": "asdf-e2691",
+    "storage_bucket": "asdf-e2691.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:82868335992:android:722fa48232da8a0083048d",
+        "android_client_info": {
+          "package_name": "com.android.foodorderapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgCFCmZ6wvJ-LUJ8NhebiascrZtkLmAJc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

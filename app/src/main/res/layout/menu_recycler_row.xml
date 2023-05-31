@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:background="@color/cafe">
 
 <androidx.cardview.widget.CardView android:id="@+id/cardView"
     android:layout_width="match_parent"
@@ -22,6 +23,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_gravity="center_vertical"
+android:background="@color/azuloscuro"
         >
 
         <ImageView android:id="@+id/thumbImage"
@@ -29,13 +31,14 @@
             android:layout_height="80dp"
             android:layout_gravity="center_horizontal"
             android:layout_margin="10dp"
+
             />
         <TextView android:id="@+id/menuName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:textColor="@color/black"
+            android:textColor="@color/purple_700"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginTop="05dp"
@@ -46,7 +49,7 @@
             android:layout_height="wrap_content"
             android:textSize="16sp"
             android:textStyle="bold"
-            android:textColor="@color/black"
+            android:textColor="@color/white"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
             />
@@ -59,7 +62,7 @@
             android:textColor="@color/white"
             android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:text="Add to cart"
+            android:text="Añadir al carrito"
             android:background="@drawable/button_bg"
             android:layout_margin="10dp"
             android:padding="10dp"
@@ -79,7 +82,7 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/ic_remove_circle"
-                app:tint="@color/purple_700"
+                app:tint="@color/white"
                 />
 
 
@@ -89,7 +92,7 @@
                 android:textSize="16sp"
                 android:layout_marginStart="05dp"
                 android:layout_marginEnd="05dp"
-                android:textColor="@color/black"
+                android:textColor="@color/white"
                 android:text="1"
                 android:gravity="center_horizontal"
                 />
@@ -99,7 +102,7 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center_horizontal"
                 android:src="@drawable/ic_add_circle"
-                app:tint="@color/purple_700"
+                app:tint="@color/white"
                 />
 
 

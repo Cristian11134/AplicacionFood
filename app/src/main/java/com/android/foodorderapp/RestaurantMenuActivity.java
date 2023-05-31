@@ -50,7 +50,7 @@ public class RestaurantMenuActivity extends AppCompatActivity implements MenuLis
             @Override
             public void onClick(View v) {
                 if(itemsInCartList != null && itemsInCartList.size() <= 0) {
-                    Toast.makeText(RestaurantMenuActivity.this, "Please add some items in cart.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(RestaurantMenuActivity.this, "Por favor añadir un item al carro.", Toast.LENGTH_SHORT).show();
                     return;
                 }
                 restaurantModel.setMenus(itemsInCartList);
